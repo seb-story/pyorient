@@ -25,5 +25,5 @@ setup(
     description='OrientDB native client library',
     long_description=open('README.rst').read(),
     license='LICENSE',
-    packages=find_packages(include=['pyorient'])
+    packages=find_packages(include=['pyorient', 'pyorient.*'])
 )
